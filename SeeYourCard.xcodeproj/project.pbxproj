@@ -14,6 +14,20 @@
 		368FECE61B1F640300E5316E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368FECE51B1F640300E5316E /* Images.xcassets */; };
 		368FECE91B1F640300E5316E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 368FECE71B1F640300E5316E /* LaunchScreen.xib */; };
 		368FECF51B1F640300E5316E /* SeeYourCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FECF41B1F640300E5316E /* SeeYourCardTests.m */; };
+		368FED001B1F648800E5316E /* scanpay in Resources */ = {isa = PBXBuildFile; fileRef = 368FECFF1B1F648800E5316E /* scanpay */; };
+		368FED021B1F64B300E5316E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 368FED011B1F64B300E5316E /* libc++.dylib */; };
+		368FED061B1F64C600E5316E /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 368FED051B1F64C600E5316E /* libsqlite3.0.dylib */; };
+		368FED081B1F64CC00E5316E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368FED071B1F64CC00E5316E /* CoreVideo.framework */; };
+		368FED0A1B1F64D000E5316E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368FED091B1F64D000E5316E /* CoreMedia.framework */; };
+		368FED0C1B1F64D500E5316E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368FED0B1B1F64D500E5316E /* AVFoundation.framework */; };
+		368FED0E1B1F64DE00E5316E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368FED0D1B1F64DE00E5316E /* AudioToolbox.framework */; };
+		368FED101B1F64E200E5316E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368FED0F1B1F64E200E5316E /* QuartzCore.framework */; };
+		368FED121B1F64E900E5316E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368FED111B1F64E900E5316E /* AssetsLibrary.framework */; };
+		368FED141B1F64EE00E5316E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368FED131B1F64EE00E5316E /* Security.framework */; };
+		368FED161B1F64F100E5316E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368FED151B1F64F100E5316E /* iAd.framework */; };
+		368FED1D1B1F657E00E5316E /* SYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED1C1B1F657E00E5316E /* SYMainViewController.m */; };
+		368FED211B1F659900E5316E /* SYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED201B1F659900E5316E /* SYUtils.m */; };
+		368FED241B1F65AE00E5316E /* SYScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED231B1F65AE00E5316E /* SYScan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,24 @@
 		368FECEE1B1F640300E5316E /* SeeYourCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeYourCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		368FECF31B1F640300E5316E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		368FECF41B1F640300E5316E /* SeeYourCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeeYourCardTests.m; sourceTree = "<group>"; };
+		368FECFF1B1F648800E5316E /* scanpay */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scanpay; sourceTree = "<group>"; };
+		368FED011B1F64B300E5316E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		368FED031B1F64BA00E5316E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		368FED051B1F64C600E5316E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		368FED071B1F64CC00E5316E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		368FED091B1F64D000E5316E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		368FED0B1B1F64D500E5316E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		368FED0D1B1F64DE00E5316E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		368FED0F1B1F64E200E5316E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		368FED111B1F64E900E5316E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		368FED131B1F64EE00E5316E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		368FED151B1F64F100E5316E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		368FED1B1B1F657E00E5316E /* SYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYMainViewController.h; path = ViewAndControllers/SYMainViewController.h; sourceTree = "<group>"; };
+		368FED1C1B1F657E00E5316E /* SYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYMainViewController.m; path = ViewAndControllers/SYMainViewController.m; sourceTree = "<group>"; };
+		368FED1F1B1F659900E5316E /* SYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYUtils.h; path = Utils/SYUtils.h; sourceTree = "<group>"; };
+		368FED201B1F659900E5316E /* SYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYUtils.m; path = Utils/SYUtils.m; sourceTree = "<group>"; };
+		368FED221B1F65AE00E5316E /* SYScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SYScan.h; path = Models/SYScan.h; sourceTree = "<group>"; };
+		368FED231B1F65AE00E5316E /* SYScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SYScan.m; path = Models/SYScan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368FED161B1F64F100E5316E /* iAd.framework in Frameworks */,
+				368FED141B1F64EE00E5316E /* Security.framework in Frameworks */,
+				368FED121B1F64E900E5316E /* AssetsLibrary.framework in Frameworks */,
+				368FED101B1F64E200E5316E /* QuartzCore.framework in Frameworks */,
+				368FED0E1B1F64DE00E5316E /* AudioToolbox.framework in Frameworks */,
+				368FED0C1B1F64D500E5316E /* AVFoundation.framework in Frameworks */,
+				368FED0A1B1F64D000E5316E /* CoreMedia.framework in Frameworks */,
+				368FED081B1F64CC00E5316E /* CoreVideo.framework in Frameworks */,
+				368FED061B1F64C600E5316E /* libsqlite3.0.dylib in Frameworks */,
+				368FED021B1F64B300E5316E /* libc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,7 @@
 		368FECCC1B1F640300E5316E = {
 			isa = PBXGroup;
 			children = (
+				368FED171B1F653000E5316E /* Libraries */,
 				368FECD71B1F640300E5316E /* SeeYourCard */,
 				368FECF11B1F640300E5316E /* SeeYourCardTests */,
 				368FECD61B1F640300E5316E /* Products */,
@@ -81,6 +124,11 @@
 		368FECD71B1F640300E5316E /* SeeYourCard */ = {
 			isa = PBXGroup;
 			children = (
+				368FED1E1B1F658400E5316E /* Utils */,
+				368FED1A1B1F654F00E5316E /* Models */,
+				368FED191B1F654600E5316E /* Components */,
+				368FED181B1F653A00E5316E /* ViewAndControllers */,
+				368FECFE1B1F647C00E5316E /* Libraries */,
 				368FECDC1B1F640300E5316E /* AppDelegate.h */,
 				368FECDD1B1F640300E5316E /* AppDelegate.m */,
 				368FECDF1B1F640300E5316E /* ViewController.h */,
@@ -117,6 +165,66 @@
 				368FECF31B1F640300E5316E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		368FECFE1B1F647C00E5316E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				368FECFF1B1F648800E5316E /* scanpay */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		368FED171B1F653000E5316E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				368FED151B1F64F100E5316E /* iAd.framework */,
+				368FED131B1F64EE00E5316E /* Security.framework */,
+				368FED111B1F64E900E5316E /* AssetsLibrary.framework */,
+				368FED0F1B1F64E200E5316E /* QuartzCore.framework */,
+				368FED0D1B1F64DE00E5316E /* AudioToolbox.framework */,
+				368FED0B1B1F64D500E5316E /* AVFoundation.framework */,
+				368FED091B1F64D000E5316E /* CoreMedia.framework */,
+				368FED071B1F64CC00E5316E /* CoreVideo.framework */,
+				368FED051B1F64C600E5316E /* libsqlite3.0.dylib */,
+				368FED031B1F64BA00E5316E /* libsqlite3.dylib */,
+				368FED011B1F64B300E5316E /* libc++.dylib */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		368FED181B1F653A00E5316E /* ViewAndControllers */ = {
+			isa = PBXGroup;
+			children = (
+				368FED1B1B1F657E00E5316E /* SYMainViewController.h */,
+				368FED1C1B1F657E00E5316E /* SYMainViewController.m */,
+			);
+			name = ViewAndControllers;
+			sourceTree = "<group>";
+		};
+		368FED191B1F654600E5316E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		368FED1A1B1F654F00E5316E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				368FED221B1F65AE00E5316E /* SYScan.h */,
+				368FED231B1F65AE00E5316E /* SYScan.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		368FED1E1B1F658400E5316E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				368FED1F1B1F659900E5316E /* SYUtils.h */,
+				368FED201B1F659900E5316E /* SYUtils.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +271,7 @@
 		368FECCD1B1F640300E5316E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SY;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Than Dang";
 				TargetAttributes = {
@@ -201,6 +310,7 @@
 			files = (
 				368FECE41B1F640300E5316E /* Main.storyboard in Resources */,
 				368FECE91B1F640300E5316E /* LaunchScreen.xib in Resources */,
+				368FED001B1F648800E5316E /* scanpay in Resources */,
 				368FECE61B1F640300E5316E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +329,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368FED211B1F659900E5316E /* SYUtils.m in Sources */,
 				368FECE11B1F640300E5316E /* ViewController.m in Sources */,
+				368FED1D1B1F657E00E5316E /* SYMainViewController.m in Sources */,
 				368FECDE1B1F640300E5316E /* AppDelegate.m in Sources */,
+				368FED241B1F65AE00E5316E /* SYScan.m in Sources */,
 				368FECDB1B1F640300E5316E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
